@@ -1,0 +1,296 @@
+/* Loading Fonts */
+.nunito {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .guntur {
+    font-family: 'Hind Guntur', sans-serif;
+  }
+
+  /* Setting Up the Navigation Bar */
+  .navbar {
+    padding:0;
+    padding-top:0.2rem;
+    padding-bottom: 0.1rem;
+}
+
+.navbar-brand {
+    padding-left:20px;
+}
+
+.navbar-light .navbar-brand {
+    color: #1f1e41;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#ababb8;
+    border-bottom: 3px solid #f8f9fa;
+    padding-bottom: 1rem;
+    font-size: 14px;
+    width:60%;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#3c6aff;
+    border-bottom: 3px solid #3c6aff;
+    width:60%;
+}
+
+li.nav-item {
+    padding:0;
+    padding:0 1rem;
+    padding-top:5px;
+}
+
+.navbar-toggler {
+    padding-bottom: 0px;
+}
+
+.input-group {
+    padding:0;
+    padding-top:8px;
+}
+
+.form-control {
+    border-radius: 3rem;
+    color:#ababb8;
+    background-color: #f4f5f8;
+    border: none;
+    width:100%;
+    font-size:14px;
+}
+
+.form-control:focus {
+    background-color: #f4f5f8;
+}
+
+.btn-outline-secondary {
+    border-radius: 0;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background-color: #f4f5f8;
+    border:none;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f4f5f8;
+    color:#ababb8;
+    border:none;
+}
+
+.profile-image-group {
+    padding:0;
+    padding:10px 0px;
+    border-radius:25px;
+    transition: 0.3s;
+}
+
+.profile-image-group:hover {
+    background-color: #dfe6e9;
+}
+
+.profile-image {
+    height:32px;
+    width: 32px;
+}
+
+.notification-bell {
+    padding-top:14px;
+}
+
+a.notification {
+    color:#ababb8;
+    text-decoration: none;
+    position: relative;
+    font-size:18px;
+    padding:6px 10px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+a.notification:hover {
+    background-color: #dfe6e9;
+    color: #1f1e41;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    color: #3c6aff;
+}
+
+.button-new {
+    padding:0px;
+    padding-top:10px;
+    padding-bottom: 2px;
+}
+
+.btn-new {
+    background-color:#3c6aff;
+    color:#FFF;
+    padding-top:0.3rem;
+    border-radius: 25px;
+}
+
+.btn-new:hover {
+    background-color:#2980b9;
+}
+
+.btn-new:hover {
+    color:#FFF;
+}
+
+/* Sidebar Wrapper */
+
+#sidebar-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    background-color: #FFF;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size:12px;
+}
+
+#sidebar-wrapper ul {
+    padding-left: 3px;
+}
+
+.sidebar-menu li{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dfe6e9;
+    border-right: 4px solid #fff;
+    transition:0.3s ease;
+}
+
+.sidebar-menu li a > span {
+    font-size:16px;
+    padding-right:8px;
+}
+
+.sidebar-menu li a > text {
+    font-size:14px;
+}
+
+.sidebar-menu li:hover {
+    border-right: 4px solid #3c6aff;
+}
+
+.sidebar-menu li:hover a > text {
+    color:#1f1e41;
+    font-size:14px;
+}
+
+.sidebar-menu li:hover a > span {
+    color: #3c6aff;
+}
+
+.sidebar-menu li a text > span:hover {
+    color:#3c6aff;
+}
+
+#content-wrapper {
+    margin-left: 220px;
+    padding:80px 150px;
+    height: 1000px;
+    background-color: #ececf1;
+}
+
+#sidebar-wrapper > ul {
+    list-style-type: none;
+}
+
+#sidebar-wrapper > ul li a {
+    color:#adadbc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+div.navigation-top-menu .navbar{
+    border-radius: 30px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.card {
+    border-radius: 20px;
+    padding:0;
+    margin:0;
+}
+
+.card-body {
+    padding:0;
+    padding:8px;
+}
+
+.card-img-overlay {
+    padding:20px;
+    color:#fff;
+}
+
+.navigation-arrows > span {
+    background-color: #ababb8;
+    border-radius: 50%;
+    font-size:18px;
+}
+
+.p-text {
+    font-size: 10px;
+    line-height: 0.1px;
+}
+
+/* Sidebar Responsive-ness */
+
+@media screen and (max-width: 992px) {
+
+    #sidebar-wrapper {
+      width: 100%;
+      height:auto;
+      padding-top: 20px;
+      position: relative;
+      white-space: nowrap;
+    }
+
+    #sidebar-wrapper ul {
+        text-align: center;
+        padding:0;
+    }
+
+    #sidebar-wrapper ul li {
+        text-align: center;
+        padding:0;
+    }
+
+    .sidebar-menu li a > text {
+        display:none;
+    }
+
+    .sidebar-menu li a > span {
+        text-align: center;
+        padding:3px 15px;
+        font-size: 18px;
+    }
+
+    .sidebar-menu li:hover a > span {
+        color:#1f1e41;
+    }
+
+    #sidebar-wrapper ul > li {
+        display:inline;
+        border:none;
+        padding-bottom: 16px;
+        border-bottom:2px solid #fff;
+    }
+
+    #sidebar-wrapper ul > li:hover {
+        border-bottom:2px solid #3c6aff;
+    }
+
+    #content-wrapper {
+        margin-left: 0;
+        padding:0;
+        padding-top:20px;
+    }
+  }
