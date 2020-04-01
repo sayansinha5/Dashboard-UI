@@ -21,7 +21,7 @@
 .navbar-light .navbar-brand {
     color: #1f1e41;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-nav .nav-link {
     color:#ababb8;
     border-bottom: 3px solid #f8f9fa;
     padding-bottom: 1rem;
@@ -194,8 +194,29 @@ a.notification:hover {
 #content-wrapper {
     margin-left: 220px;
     padding:80px 150px;
-    height: 1000px;
     background-color: #ececf1;
+}
+
+.nav-content-wrapper {
+    width:100%;
+    padding:10px 0px;
+    background-color: #f8f9fa;
+    border-radius:30px;
+}
+
+.nav-content-wrapper .nav-link {
+    color:#ababb8;
+    border-bottom: 3px solid #f8f9fa;
+    font-size: 14px;
+    width:60%;
+}
+
+.nav-content-wrapper .nav-link:hover {
+    color:#3c6aff;
+    border-bottom: 3px solid #3c6aff;
+    font-size: 14px;
+    width:60%;
+
 }
 
 #sidebar-wrapper > ul {
